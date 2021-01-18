@@ -34,6 +34,7 @@ Blockly.Blocks['motion_movesteps'] = {
    * @this Blockly.Block
    */
   init: function() {
+    window.console.log(Blockly.Msg.MOTION_MOVESTEPS);
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_MOVESTEPS,
       "args0": [

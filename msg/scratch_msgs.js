@@ -4309,7 +4309,14 @@ Blockly.ScratchMsgs.locales["en"] =
     "NEW_BROADCAST_MESSAGE": "New message",
     "NEW_BROADCAST_MESSAGE_TITLE": "New message name:",
     "BROADCAST_MODAL_TITLE": "New Message",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+    "PHYSICS_ENABLE": "enable for %1 mode %2",
+    "PHYSICS_SHAPE_COSTUME": "this costume",
+    "PHYSICS_SHAPE_CIRCLE": "this circle",
+    "PHYSICS_SHAPE_POLYGON": "this polygon",
+    "PHYSICS_SHAPE_ALL": "all sprites",
+    "PHYSICS_MODE_NORMAL": "normal",
+    "PHYSICS_MODE_PRECISION": "precision"
 };
 
 Blockly.ScratchMsgs.locales["es"] =

@@ -109,7 +109,7 @@ Blockly.BubbleDragger.prototype.dispose = function() {
  */
 Blockly.BubbleDragger.prototype.startBubbleDrag = function() {
   if (!Blockly.Events.getGroup()) {
-    Blockly.Events.setGroup(true);
+    Blockly.Events.setGroup(false);
   }
 
   this.workspace_.setResizesEnabled(false);

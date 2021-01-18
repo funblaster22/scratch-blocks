@@ -92,7 +92,7 @@ Blockly.SOUND_LIMIT = 100;
  * When dragging a block out of a stack, split the stack in two (true), or drag
  * out the block healing the stack (false).
  */
-Blockly.DRAG_STACK = true;
+Blockly.DRAG_STACK = false;  // TODO: setting to false throws SyntaxError: Invalid or unexpected token
 
 /**
  * The richness of block colours, regardless of the hue.
@@ -269,7 +269,8 @@ Blockly.Categories = {
   "control": "control",
   "sensing": "sensing",
   "operators": "operators",
-  "more": "more"
+  "more": "more",
+  "physics": "physics"
 };
 
 /**
