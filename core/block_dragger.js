@@ -159,7 +159,7 @@ Blockly.BlockDragger.initIconData_ = function(block) {
  */
 Blockly.BlockDragger.prototype.startBlockDrag = function(currentDragDeltaXY) {
   if (!Blockly.Events.getGroup()) {
-    Blockly.Events.setGroup(false);
+    Blockly.Events.setGroup(true);
   }
 
   this.workspace_.setResizesEnabled(false);
@@ -172,9 +172,6 @@ Blockly.BlockDragger.prototype.startBlockDrag = function(currentDragDeltaXY) {
 
     this.draggingBlock_.translate(newLoc.x, newLoc.y);
     Blockly.BlockAnimations.disconnectUiEffect(this.draggingBlock_);
-  }
-  if (this.draggingBlock_.getChild()) {
-    this.draggingBlock_.getChild().unplug();
   }
   this.draggingBlock_.setDragging(true);
   // For future consideration: we may be able to put moveToDragSurface inside
